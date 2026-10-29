@@ -1,0 +1,29 @@
+name: couteau
+description: "Tarea 6 - Couteau: una navaja suiza de herramientas en Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+# Paquetes que usa la app (se descargan con: flutter pub get)
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2            # Para pedir datos a las APIs (GET)
+  url_launcher: ^6.3.1    # Para abrir links en el navegador
+  audioplayers: ^6.1.0    # Para reproducir el sonido del Pokémon
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+# El ícono (tu foto) ya está generado en android/app/src/main/res/mipmap-*
+
+flutter:
+  uses-material-design: true
+  # Imágenes locales que van dentro del APK
+  assets:
+    - assets/images/
